@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>你的网站被攻击了！</title>
+<meta charset="utf8">
+<script>
+	//alert("你的网站被攻击了！");
+	var cookie = window.location.search.replace(/\?cookie=/gi,"");
+	cookie = unescape(cookie);
+	alert(cookie);
+</script>
+</head>
+<body>
+	<p>你的网站被攻击了！</p>
+</body>
+</html>
